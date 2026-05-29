@@ -15,8 +15,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             AndroidBasicsClassTheme {
-                LoginView()
-                /* AppNavigation() */
+                /*LoginView()*/
+                AppNavigation()
             }
         }
     }
