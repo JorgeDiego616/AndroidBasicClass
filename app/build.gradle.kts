@@ -42,6 +42,17 @@ android {
 }
 
 dependencies {
+    // Coil para cargar imágenes desde URL
+    implementation("io.coil-kt:coil-compose:2.6.0")
+    // Retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+
+    // Convertidor Gson (para deserializar el JSON)
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    // Corrutinas (para las funciones suspend)
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+
     implementation("androidx.navigation:navigation-compose:2.8.9")
     implementation("androidx.compose.material:material-icons-extended:<version>")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
